@@ -1,3 +1,32 @@
+body {
+    background-color: rgba(229, 228, 233, 0.493);
+    font-family: 'Times New Roman', Times, serif;
+}
+
 textarea {
     min-height: 400px;
+}
+
+.emailCol {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 12px 25px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 1px;
+}
+
+.emailCol:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transform: translateX(-3px);
+    cursor: pointer;
+}
+
+.read {
+    background-color: rgb(192, 187, 187);
+}
+
+.btn{
+    margin-top: 10px;
 }
